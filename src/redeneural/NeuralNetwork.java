@@ -15,7 +15,7 @@ import org.encog.neural.networks.training.propagation.resilient.ResilientPropaga
  *
  * @author micro
  */
-public class RedeNeural11 {
+public class NeuralNetwork {
 
     public static String input[][] = {{"123 casa da dona", "casa da dona"},
     {"gato", "gatoo"}, {"gato", "gatu"},  {"coelho 123", "animal"},
