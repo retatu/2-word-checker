@@ -109,7 +109,7 @@ public class NeuralNetwork {
         try {
             byte[] bytes = world.getBytes("US-ASCII");
             for (int i = 0; i < bytes.length; i++) {
-                ascii += 100.0 / bytes[i];
+                ascii += 100.0 / bytes[i] * i;
                 //System.out.print(ascii[i]);
             }
         } catch (UnsupportedEncodingException e) {
